@@ -55,7 +55,7 @@ threepy==0.1.1                             # For 3D visualizations and animation
 psutil==5.9.4                              # System monitoring to track resource usage
 gpuinfo==2.0.0                             # For monitoring GPU usage (if running on GPUs)
 memory-profiler==0.61.0                    # For memory usage profiling
-pytest==7.2.2                              # For unit testing and quality assurance
+pytest==8.3.5                              # For unit testing and quality assurance
 
 # Database
 sqlite3==3.37.0                            # Database for storing interaction logs and user feedback
