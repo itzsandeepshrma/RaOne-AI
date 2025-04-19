@@ -44,7 +44,7 @@ dlib==19.24.0                              # Facial landmark detection (optional
 face_recognition==1.3.0                    # Detect faces in images or video streams
 
 # Logging and Debugging
-loguru==0.7.0                              # Logging library for tracking AI performance
+loguru==0.7.3                              # Logging library for tracking AI performance
 rich==12.0.0                               # Rich logging and visual debug output
 
 # Animation and Visualization
