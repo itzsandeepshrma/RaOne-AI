@@ -45,7 +45,7 @@ face_recognition==1.3.0                    # Detect faces in images or video str
 
 # Logging and Debugging
 loguru==0.7.0                              # Logging library for tracking AI performance
-rich==12.0.0                               # Rich logging and visual debug output
+rich==14.0.0                               # Rich logging and visual debug output
 
 # Animation and Visualization
 manim==0.17.0                              # For animation generation (cinematic boot sequence)
