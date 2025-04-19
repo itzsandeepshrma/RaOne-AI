@@ -11,7 +11,7 @@ seaborn==0.12.2                            # For better data visualization (opti
 nltk==3.8.1                                # For text preprocessing, tokenization, and NLP tasks
 spacy==3.6.0                               # Advanced NLP (Sarcasm detection, conversational flow)
 transformers==4.24.0                       # For pre-trained models like BERT for NLP tasks
-textblob==0.17.1                           # Text processing and sentiment analysis
+textblob==0.19.0                           # Text processing and sentiment analysis
 regex==2023.6.3                            # Regular expressions for NLP tasks
 
 # Emotion and Sarcasm Detection
