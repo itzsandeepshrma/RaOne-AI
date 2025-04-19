@@ -33,7 +33,7 @@ pytorch==2.0.0                              # Optional: For any advanced machine
 
 # Web and User Interface
 flask==2.2.3                               # Web framework for building interfaces (if web-based)
-flask_cors==3.1.1                          # For enabling CORS in Flask applications
+flask_cors==5.0.1                          # For enabling CORS in Flask applications
 requests==2.28.1                           # HTTP requests to fetch external data (if necessary)
 socketio==5.7.3                            # WebSocket for real-time interaction in web interface
 dash==2.11.0                               # For building interactive UI in web application
