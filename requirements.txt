@@ -3,7 +3,7 @@ tensorflow==2.12.0                         # Deep learning framework for emotion
 numpy==1.24.2                              # Numerical computations for data handling
 pandas==2.1.0                              # Data processing and manipulation
 scikit-learn==1.2.2                        # For machine learning algorithms and model training
-scipy==1.11.0                              # Scientific computation utilities
+scipy==1.13.1                              # Scientific computation utilities
 matplotlib==3.7.1                          # Data visualization for testing and model analysis
 seaborn==0.12.2                            # For better data visualization (optional)
 
