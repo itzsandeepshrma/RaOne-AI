@@ -12,7 +12,7 @@ nltk==3.8.1                                # For text preprocessing, tokenizatio
 spacy==3.6.0                               # Advanced NLP (Sarcasm detection, conversational flow)
 transformers==4.24.0                       # For pre-trained models like BERT for NLP tasks
 textblob==0.17.1                           # Text processing and sentiment analysis
-regex==2023.6.3                            # Regular expressions for NLP tasks
+regex==2024.11.6                            # Regular expressions for NLP tasks
 
 # Emotion and Sarcasm Detection
 keras==2.12.0                              # Deep learning for custom emotion/sarcasm models
