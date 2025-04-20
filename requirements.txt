@@ -1,8 +1,12 @@
 # Essential libraries
 tensorflow==2.18.1                         # Deep learning framework for emotion, sarcasm, and speech models
+dependabot/pip/numpy-2.0.2
+numpy==2.0.2                              # Numerical computations for data handling
+
 numpy==1.24.2                              # Numerical computations for data handling
 dependabot/pip/pandas-2.2.3
 pandas==2.2.3                              # Data processing and manipulation
+main
 pandas==2.1.0                              # Data processing and manipulation
 dependabot/pip/scipy-1.13.1
 scikit-learn==1.2.2                        # For machine learning algorithms and model training
