@@ -73,7 +73,7 @@ flask==3.1.0                               # Web framework for building interfac
 flask_cors==3.1.1                          # For enabling CORS in Flask applications
 requests==2.32.3                           # HTTP requests to fetch external data (if necessary)
 socketio==5.7.3                            # WebSocket for real-time interaction in web interface
-dash==2.11.0                               # For building interactive UI in web application
+dash==3.0.3                               # For building interactive UI in web application
 
 # Facial recognition (Optional)
 dependabot/pip/opencv-python-4.11.0.86
