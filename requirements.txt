@@ -13,7 +13,7 @@ scikit-learn==1.6.1                        # For machine learning algorithms and
 scipy==1.11.0                              # Scientific computation utilities
 main
 matplotlib==3.7.1                          # Data visualization for testing and model analysis
-seaborn==0.12.2                            # For better data visualization (optional)
+seaborn==0.13.2                            # For better data visualization (optional)
 
 # Natural Language Processing (NLP)
 nltk==3.9.1                                # For text preprocessing, tokenization, and NLP tasks
