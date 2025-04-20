@@ -76,8 +76,12 @@ socketio==5.7.3                            # WebSocket for real-time interaction
 dash==2.11.0                               # For building interactive UI in web application
 
 # Facial recognition (Optional)
+dependabot/pip/opencv-python-4.11.0.86
+opencv-python==4.11.0.86                    # For facial detection and analysis (optional feature)
+dlib==19.24.0                              # Facial landmark detection (optional)
 opencv-python==4.7.0.72                    # For facial detection and analysis (optional feature)
 dlib==19.24.6                              # Facial landmark detection (optional)
+main
 face_recognition==1.3.0                    # Detect faces in images or video streams
 
 # Logging and Debugging
