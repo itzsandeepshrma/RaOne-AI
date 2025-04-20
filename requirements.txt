@@ -1,40 +1,63 @@
 # Essential libraries
-tensorflow==2.12.0                         # Deep learning framework for emotion, sarcasm, and speech models
+tensorflow==2.18.1                         # Deep learning framework for emotion, sarcasm, and speech models
+dependabot/pip/numpy-2.0.2
+numpy==2.0.2                              # Numerical computations for data handling
+
 numpy==1.24.2                              # Numerical computations for data handling
+dependabot/pip/pandas-2.2.3
+pandas==2.2.3                              # Data processing and manipulation
+main
 pandas==2.1.0                              # Data processing and manipulation
+dependabot/pip/scipy-1.13.1
 scikit-learn==1.2.2                        # For machine learning algorithms and model training
+scipy==1.13.1                              # Scientific computation utilities
+
+main
+scikit-learn==1.6.1                        # For machine learning algorithms and model training
 scipy==1.11.0                              # Scientific computation utilities
+main
 matplotlib==3.7.1                          # Data visualization for testing and model analysis
-seaborn==0.12.2                            # For better data visualization (optional)
+seaborn==0.13.2                            # For better data visualization (optional)
 
 # Natural Language Processing (NLP)
+dependabot/pip/spacy-3.8.5
 nltk==3.8.1                                # For text preprocessing, tokenization, and NLP tasks
-spacy==3.6.0                               # Advanced NLP (Sarcasm detection, conversational flow)
+spacy==3.8.5                               # Advanced NLP (Sarcasm detection, conversational flow)
 transformers==4.24.0                       # For pre-trained models like BERT for NLP tasks
+dependabot/pip/textblob-0.19.0
 textblob==0.19.0                           # Text processing and sentiment analysis
 regex==2023.6.3                            # Regular expressions for NLP tasks
 
+
+nltk==3.9.1                                # For text preprocessing, tokenization, and NLP tasks
+spacy==3.6.0                               # Advanced NLP (Sarcasm detection, conversational flow)
+transformers==4.51.3                       # For pre-trained models like BERT for NLP tasks
+main
+textblob==0.17.1                           # Text processing and sentiment analysis
+regex==2024.11.6                            # Regular expressions for NLP tasks
+main
+
 # Emotion and Sarcasm Detection
-keras==2.12.0                              # Deep learning for custom emotion/sarcasm models
+keras==3.9.2                              # Deep learning for custom emotion/sarcasm models
 tensorflow_hub==0.12.0                     # For using pre-trained models in TensorFlow (e.g., emotion models)
 pydub==0.25.1                              # Audio manipulation and sound processing (for voice modulation)
-librosa==0.10.0                            # For speech/audio feature extraction
+librosa==0.10.2                            # For speech/audio feature extraction
 
 # Voice synthesis (Text to Speech)
-pyttsx3==2.90                              # Text-to-speech engine
-gTTS==2.3.0                                # Google Text to Speech, if needed as a backup option
+pyttsx3==2.98                              # Text-to-speech engine
+gTTS==2.5.4                                # Google Text to Speech, if needed as a backup option
 speechrecognition==3.9.0                   # Voice recognition for receiving voice commands
-pyAudio==0.2.11                            # Audio input/output for speech recognition and synthesis
+pyAudio==0.2.14                            # Audio input/output for speech recognition and synthesis
 
 # Machine Learning and Reinforcement Learning
 gym==0.26.2                                # For reinforcement learning environment setup
-stable-baselines3==2.0.0                   # Reinforcement learning algorithms (for learning from interactions)
+stable-baselines3==2.4.1                   # Reinforcement learning algorithms (for learning from interactions)
 pytorch==2.0.0                              # Optional: For any advanced machine learning models
 
 # Web and User Interface
-flask==2.2.3                               # Web framework for building interfaces (if web-based)
+flask==3.1.0                               # Web framework for building interfaces (if web-based)
 flask_cors==3.1.1                          # For enabling CORS in Flask applications
-requests==2.28.1                           # HTTP requests to fetch external data (if necessary)
+requests==2.32.3                           # HTTP requests to fetch external data (if necessary)
 socketio==5.7.3                            # WebSocket for real-time interaction in web interface
 dash==2.11.0                               # For building interactive UI in web application
 
@@ -45,17 +68,17 @@ face_recognition==1.3.0                    # Detect faces in images or video str
 
 # Logging and Debugging
 loguru==0.7.0                              # Logging library for tracking AI performance
-rich==12.0.0                               # Rich logging and visual debug output
+rich==14.0.0                               # Rich logging and visual debug output
 
 # Animation and Visualization
 manim==0.17.0                              # For animation generation (cinematic boot sequence)
 threepy==0.1.1                             # For 3D visualizations and animations (optional)
 
 # System Monitoring and Performance
-psutil==5.9.4                              # System monitoring to track resource usage
+psutil==7.0.0                              # System monitoring to track resource usage
 gpuinfo==2.0.0                             # For monitoring GPU usage (if running on GPUs)
 memory-profiler==0.61.0                    # For memory usage profiling
-pytest==7.2.2                              # For unit testing and quality assurance
+pytest==8.3.5                              # For unit testing and quality assurance
 
 # Database
 sqlite3==3.37.0                            # Database for storing interaction logs and user feedback
