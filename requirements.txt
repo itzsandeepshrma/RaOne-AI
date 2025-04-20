@@ -38,8 +38,13 @@ regex==2024.11.6                            # Regular expressions for NLP tasks
 main
 
 # Emotion and Sarcasm Detection
+dependabot/pip/tensorflow-hub-0.16.1
+keras==2.12.0                              # Deep learning for custom emotion/sarcasm models
+tensorflow_hub==0.16.1                     # For using pre-trained models in TensorFlow (e.g., emotion models)
+=======
 keras==3.9.2                              # Deep learning for custom emotion/sarcasm models
 tensorflow_hub==0.12.0                     # For using pre-trained models in TensorFlow (e.g., emotion models)
+main
 pydub==0.25.1                              # Audio manipulation and sound processing (for voice modulation)
 librosa==0.10.2                            # For speech/audio feature extraction
 
