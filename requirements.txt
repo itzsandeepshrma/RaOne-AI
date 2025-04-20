@@ -23,7 +23,7 @@ regex==2023.6.3                            # Regular expressions for NLP tasks
 keras==2.12.0                              # Deep learning for custom emotion/sarcasm models
 tensorflow_hub==0.12.0                     # For using pre-trained models in TensorFlow (e.g., emotion models)
 pydub==0.25.1                              # Audio manipulation and sound processing (for voice modulation)
-librosa==0.10.0                            # For speech/audio feature extraction
+librosa==0.10.2                            # For speech/audio feature extraction
 
 # Voice synthesis (Text to Speech)
 pyttsx3==2.98                              # Text-to-speech engine
