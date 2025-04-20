@@ -40,7 +40,7 @@ pyAudio==0.2.14                            # Audio input/output for speech recog
 
 # Machine Learning and Reinforcement Learning
 gym==0.26.2                                # For reinforcement learning environment setup
-stable-baselines3==2.0.0                   # Reinforcement learning algorithms (for learning from interactions)
+stable-baselines3==2.4.1                   # Reinforcement learning algorithms (for learning from interactions)
 pytorch==2.0.0                              # Optional: For any advanced machine learning models
 
 # Web and User Interface
