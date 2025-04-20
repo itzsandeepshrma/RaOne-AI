@@ -57,7 +57,7 @@ manim==0.17.0                              # For animation generation (cinematic
 threepy==0.1.1                             # For 3D visualizations and animations (optional)
 
 # System Monitoring and Performance
-psutil==5.9.4                              # System monitoring to track resource usage
+psutil==7.0.0                              # System monitoring to track resource usage
 gpuinfo==2.0.0                             # For monitoring GPU usage (if running on GPUs)
 memory-profiler==0.61.0                    # For memory usage profiling
 pytest==8.3.5                              # For unit testing and quality assurance
