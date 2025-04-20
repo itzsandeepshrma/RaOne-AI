@@ -15,9 +15,13 @@ scipy==1.13.1                              # Scientific computation utilities
 main
 scikit-learn==1.6.1                        # For machine learning algorithms and model training
 scipy==1.11.0                              # Scientific computation utilities
+dependabot/pip/matplotlib-3.9.4
+matplotlib==3.9.4                          # Data visualization for testing and model analysis
+seaborn==0.12.2                            # For better data visualization (optional)
 main
 matplotlib==3.7.1                          # Data visualization for testing and model analysis
 seaborn==0.13.2                            # For better data visualization (optional)
+main
 
 # Natural Language Processing (NLP)
 dependabot/pip/spacy-3.8.5
