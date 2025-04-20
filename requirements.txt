@@ -20,9 +20,15 @@ matplotlib==3.7.1                          # Data visualization for testing and 
 seaborn==0.13.2                            # For better data visualization (optional)
 
 # Natural Language Processing (NLP)
+dependabot/pip/spacy-3.8.5
+nltk==3.8.1                                # For text preprocessing, tokenization, and NLP tasks
+spacy==3.8.5                               # Advanced NLP (Sarcasm detection, conversational flow)
+transformers==4.24.0                       # For pre-trained models like BERT for NLP tasks
+
 nltk==3.9.1                                # For text preprocessing, tokenization, and NLP tasks
 spacy==3.6.0                               # Advanced NLP (Sarcasm detection, conversational flow)
 transformers==4.51.3                       # For pre-trained models like BERT for NLP tasks
+main
 textblob==0.17.1                           # Text processing and sentiment analysis
 regex==2024.11.6                            # Regular expressions for NLP tasks
 
