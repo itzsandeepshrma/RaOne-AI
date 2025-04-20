@@ -96,4 +96,4 @@ pytest==8.3.5                              # For unit testing and quality assura
 
 # Database
 sqlite3==3.37.0                            # Database for storing interaction logs and user feedback
-sqlalchemy==2.0.0b2                        # ORM for handling database queries
+sqlalchemy==2.0.40                        # ORM for handling database queries
