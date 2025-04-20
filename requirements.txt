@@ -1,6 +1,6 @@
 # Essential libraries
 tensorflow==2.18.1                         # Deep learning framework for emotion, sarcasm, and speech models
-numpy==1.24.2                              # Numerical computations for data handling
+numpy==2.0.2                              # Numerical computations for data handling
 pandas==2.1.0                              # Data processing and manipulation
 scikit-learn==1.6.1                        # For machine learning algorithms and model training
 scipy==1.11.0                              # Scientific computation utilities
