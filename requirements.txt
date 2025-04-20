@@ -81,7 +81,7 @@ loguru==0.7.0                              # Logging library for tracking AI per
 rich==14.0.0                               # Rich logging and visual debug output
 
 # Animation and Visualization
-manim==0.17.0                              # For animation generation (cinematic boot sequence)
+manim==0.19.0                              # For animation generation (cinematic boot sequence)
 threepy==0.1.1                             # For 3D visualizations and animations (optional)
 
 # System Monitoring and Performance
