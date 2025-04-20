@@ -29,7 +29,7 @@ librosa==0.10.2                            # For speech/audio feature extraction
 pyttsx3==2.98                              # Text-to-speech engine
 gTTS==2.3.0                                # Google Text to Speech, if needed as a backup option
 speechrecognition==3.9.0                   # Voice recognition for receiving voice commands
-pyAudio==0.2.11                            # Audio input/output for speech recognition and synthesis
+pyAudio==0.2.14                            # Audio input/output for speech recognition and synthesis
 
 # Machine Learning and Reinforcement Learning
 gym==0.26.2                                # For reinforcement learning environment setup
