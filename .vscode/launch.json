@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "RaOne AI - Dev Mode",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "console": "integratedTerminal",
+      "env": {
+        "RAONE_ENV": "development"
+      },
+      "justMyCode": false,
+      "args": [
+        "--debug",
+        "--profile=default"
+      ]
+    },
+    {
+      "name": "RaOne AI - Production Mode",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/main.py",
+      "console": "integratedTerminal",
+      "env": {
+        "RAONE_ENV": "production"
+      },
+      "justMyCode": true
+    }
+  ]
+}
