@@ -1,1 +1,9 @@
+import pickle
+import os
 
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "sarcasm_detection_model.pkl")
+
+def load_sarcasm_model():
+    with open(MODEL_PATH, 'rb') as file:
+        model = pickle.load(file)
+    return model
