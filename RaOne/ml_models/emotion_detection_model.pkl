@@ -1,1 +1,13 @@
+import pickle
+import os
 
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "emotion_detection_model.pkl")
+
+def load_emotion_model():
+    with open(MODEL_PATH, 'rb') as file:
+        model = pickle.load(file)
+    return model
+
+# Usage example:
+# model = load_emotion_model()
+# prediction = model.predict(["I'm feeling amazing today!"])
